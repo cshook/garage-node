@@ -16,6 +16,7 @@ function delayPinWrite(pin, value, callback) {
 }
 
 app.get("/api/ping", function(req, res) {
+	console.log('Ping/Pong');
 	res.json("pong");
 });
 
